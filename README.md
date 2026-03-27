@@ -9,7 +9,7 @@ This repository tracks only the latest **port 5176** implementation prototype ex
 - TypeScript
 
 ## Run
-
+Install the GitHub as a zip, open the folder and go to the folder from terminal via cd. Then:
 ```bash
 npm install
 npm run dev
@@ -40,7 +40,6 @@ The app includes dedicated requirement surfaces for:
 
 ## Notes
 
-- Legacy implementations for other ports are kept locally but are not part of tracked remote scope.
 - Case-level data is persisted in `localStorage` for the 5176 workflow.
 
 ## Build
@@ -49,3 +48,9 @@ The app includes dedicated requirement surfaces for:
 npm run build
 npm run preview
 ```
+
+## AI Usage Attribution
+
+- Portions of this repository were developed with AI coding assistance (including code generation, refactoring suggestions, bug-fix drafts, and documentation edits).
+- Team members reviewed, tested, and adjusted AI-assisted output before accepting changes.
+- Final responsibility for implementation decisions, correctness, and submission content remains with the team.
