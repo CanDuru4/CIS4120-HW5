@@ -20,3 +20,10 @@ updates:
         update-types:
           - minor
           - patch
+      npm-majors:
+        # Majors need a manual build check, so batch them into one reviewable PR.
+        applies-to: version-updates
+        patterns:
+          - "*"
+        update-types:
+          - major
