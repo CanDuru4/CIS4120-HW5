@@ -60,8 +60,8 @@ is uploaded anywhere.
 ### Installation
 
 ```bash
-git clone https://github.com/CanDuru4/CIS4120-HW5.git
-cd CIS4120-HW5
+git clone https://github.com/CanDuru4/cis4120-hw5.git
+cd cis4120-hw5
 npm ci
 npm run dev
 ```
